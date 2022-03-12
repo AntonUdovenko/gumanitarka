@@ -1,0 +1,31 @@
+.promo {
+    background: linear-gradient(#2E7ACF 65%, transparent 40%) no-repeat;
+    &__logo {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: auto;
+            height: 200px;
+        }
+    }
+    &__h1 {
+        margin-top: 42px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__descr {
+        padding-top: 32px;
+        margin: 0 auto;
+        width: 802px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

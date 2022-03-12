@@ -1,0 +1,10 @@
+.header {
+    padding-top: 30px;
+    background: #2E7ACF;
+    &__flex {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -1px;
+    }
+}

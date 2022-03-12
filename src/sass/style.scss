@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/btn.scss';
+@import 'blocks/leng.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/carousel.scss';
+@import 'blocks/about.scss';
+@import 'blocks/attention.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/media.scss';
