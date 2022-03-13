@@ -4,6 +4,9 @@
         position: relative;
         width: 1096px;
         margin: 0 auto;
+        img {
+            border-radius: 20px;
+        }
     }
     li {
         list-style-type: none;
