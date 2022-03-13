@@ -1,10 +1,40 @@
 .header {
-    padding-top: 30px;
     background: #2E7ACF;
+    padding: 30px 60px 0 60px;
     &__flex {
-        padding: 0 20px;
         display: flex;
         justify-content: space-between;
         margin-bottom: -1px;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__links {
+        display: flex;
+        margin-right: 10px;
+        a {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 16px;
+            transition: 0.5s all;
+            &:hover {
+                color: #FFD700;
+                text-decoration: none;
+            }
+        }
+        &__item {
+            padding-right: 50px;
+        }
+    }
+    .languages {
+        padding-right: 75px;
+        .dropbtn {
+            transition: 0.5s all;
+            &:hover {
+                color: #FFD700;
+                text-decoration: none;
+            }
+        }
     }
 }

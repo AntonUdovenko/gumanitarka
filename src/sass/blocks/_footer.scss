@@ -23,4 +23,56 @@
             }
         }
     }
+    &__divider {
+        display: block;
+        margin: 100px auto 0 auto;
+        height: 1px;
+        width: 80%;
+        background:#000000;
+    }
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -1px;
+    }
+    &__nav {
+        margin-top: 88px;
+        padding: 0 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__links {
+        display: flex;
+        margin-right: 10px;
+        a {
+            color: #000000;
+            font-weight: 500;
+            font-size: 16px;
+            transition: 0.5s all;
+            &:hover {
+                color: #2E7ACF;
+                text-decoration: none;
+            }
+        }
+        &__item {
+            padding-left: 50px;
+        }
+    }
+    .languages {
+        padding-right: 75px;
+        .dropbtn {
+            transition: 0.5s all;
+            &:hover {
+                color: #2E7ACF;
+                text-decoration: none;
+            }
+        }
+    }
+    .dropbtn{
+        color:#000000;
+        background: url('../img/mdi-lang-black.png') no-repeat left center;
+        &::after {
+            background: url("../img/arrow-black.png") no-repeat scroll center center;
+        }
+        }
 }
