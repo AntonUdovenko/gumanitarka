@@ -17,6 +17,14 @@
     }
     &__divider {
         position: relative;
+        a {
+            color: #2E7ACF;
+            transition: 0.5s all;
+            &:hover {
+                text-decoration: none;
+                color: #FFD700;
+            }
+        }
         &::after{
             content: '';
             position: absolute;
@@ -32,6 +40,12 @@
     }
     &__qr {
         position: relative;
+        img {
+            transition: 0.5s all;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
         &::before{
             content: '';
             position: absolute;
