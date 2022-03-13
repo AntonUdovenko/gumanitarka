@@ -1,5 +1,5 @@
 .footer {
-    padding: 82px 0;
+    margin: 82px auto;
     &__text {
         padding-bottom: 32px;
         font-weight: 600;
@@ -11,8 +11,7 @@
     &__grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        row-gap: 20px;
-        height: 150px;
+        row-gap: 40px;
         align-items: center;
         &__img {
             display: block;

@@ -14,9 +14,6 @@
     margin: 0 auto;
 }
 
-.hamburger {
-    display: none;
-}
 
 @import 'blocks/header.scss';
 @import 'blocks/btn.scss';
@@ -26,4 +23,5 @@
 @import 'blocks/about.scss';
 @import 'blocks/attention.scss';
 @import 'blocks/footer.scss';
+@import 'blocks/mobilemenu.scss';
 @import 'blocks/media.scss';
