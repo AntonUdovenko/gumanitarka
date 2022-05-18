@@ -1,0 +1,42 @@
+.donate {
+    .container {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 95px;
+    }
+    &__text {
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 63px;
+            color: #3F4350;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            color: #3F4350;
+        }
+    }
+    &__donate {
+        display: block;
+        width: 731px;
+        padding: 60px 30px;
+        background: #eaf2fa;
+        border-radius: 20px;
+        &__text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 35px;
+            color: #3F4350;
+        }
+    }
+}

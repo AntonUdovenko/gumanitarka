@@ -1,0 +1,12 @@
+.factories {
+    .footer__text {
+        margin-top: 50px;
+    }
+    &__img {
+        text-align: center;
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
+}

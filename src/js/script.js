@@ -7,15 +7,17 @@ window.addEventListener('DOMContentLoaded', () => {
         hamburger.classList.toggle('hamburger_active');
         menu.classList.toggle('header__mobile__menu_active');
     });
-
     menuItem.forEach(item => {
         item.addEventListener('click', () => {
             hamburger.classList.toggle('hamburger_active');
             menu.classList.toggle('header__mobile__menu_active');
-        })
+        });
     });
-
 });
+
+
+
+
 
 $(document).ready(function(){
   $('.carousel__inner').slick({
@@ -73,5 +75,7 @@ $(document).ready(function(){
       });
   };
   
+  
   $(document).ready(function() { touchHover(); });
+  
   

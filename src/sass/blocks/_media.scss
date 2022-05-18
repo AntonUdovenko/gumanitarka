@@ -25,6 +25,13 @@
     .carousel__inner {
         width: 100%;
     }
+    .factories {
+        &__img {
+            img {
+                width: 80%;
+            }
+        }
+    }
     .about {
         &__grid {
             padding-left: 20px;
@@ -44,11 +51,46 @@
             }
         }
     }
+    .donate {
+        .container {
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 95px;
+        }
+        &__text {
+            &__title {
+                font-size: 52px;
+                line-height: 63px;
+            }
+            &__descr {
+                margin-top: 20px;
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+        &__donate {
+            width: 400px;
+            padding: 60px 30px;
+            &__text {
+                font-size: 19px;
+                line-height: 25px;
+                color: #3F4350;
+            }
+        }
+    }
 }
 
 @media (max-width: 960px) {
     .container {
         max-width: 640px;
+    }
+    .factories {
+        &__img {
+            img {
+                width: 80%;
+            }
+        }
     }
     .attention {
         &__grid {
@@ -76,6 +118,10 @@
         }
     }
     .about {
+        .about__h2{
+            font-size: 24px;
+            line-height: 29px;
+        }
         padding-bottom: 40px;
         &__grid {
             grid-template-columns: 1fr;
@@ -153,6 +199,30 @@
         font-size: 25px;
         &_active{
             left: 0;
+        }
+    }
+    .donate {
+        .container {
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 95px;
+        }
+        &__text {
+            text-align: center;
+            &__title {
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+        &__donate {
+            width: 100%;
+            padding: 5px 5px;
+            &__text {
+                font-size: 19px;
+                line-height: 25px;
+                color: #3F4350;
+            }
         }
     }
 }
